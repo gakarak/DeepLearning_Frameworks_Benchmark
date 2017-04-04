@@ -23,7 +23,7 @@ $ ./run02_gen_netgraph_image.sh
 -----
 And visualize pretty image:
 
-![Caffe NetGraph](img/Step02/Caffe/Caffe_MNIST_LogReg_NetGraph.png)
+![Caffe NetGraph](../../img/Step02/Caffe/Caffe_MNIST_LogReg_NetGraph.png)
 
 -----
 Next step: you can Train LogisticRegression Classifier
@@ -132,7 +132,7 @@ $ ./run04_gen_netgraph_image_inference.sh
 
 6. and visualize it:
 
-![NetGraph LogReg Inference](img/Step02/Caffe/Caffe_MNIST_LogReg_NetGraph_Inference.png)
+![NetGraph LogReg Inference](../../img/Step02/Caffe/Caffe_MNIST_LogReg_NetGraph_Inference.png)
 
 -----------
 7. Next You can run jupyter notebook code to visualize Network weights and try 
@@ -148,12 +148,12 @@ $ jupyter notebook Caffe_LogisticRegression_Notebook.ipynb
 
 Weights visualization:
 
-![Caffe LogReg Weights](img/Step02/Caffe/Caffe_MNIST_LogReg_Weights.png)
+![Caffe LogReg Weights](../../img/Step02/Caffe/Caffe_MNIST_LogReg_Weights.png)
 
 
 Prediction on test-data:
 
-![Caffe LogReg Prediction](img/Step02/Caffe/Caffe_MNIST_LogReg_TestInference.png)
+![Caffe LogReg Prediction](../../img/Step02/Caffe/Caffe_MNIST_LogReg_TestInference.png)
 
 
 
