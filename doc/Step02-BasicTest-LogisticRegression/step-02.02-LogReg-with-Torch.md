@@ -21,9 +21,9 @@ and open URL: [http://ec2-54-172-161-206.compute-1.amazonaws.com:9999/](http://e
 -------
 Weights matrix initialization:
 
-![Weights Initialization](img/Step02/Torch/Torch_Weights_Initialization.png)
+![Weights Initialization](../../img/Step02/Torch/Torch_Weights_Initialization.png)
 
 -------
 Weights matrix after training:
 
-![Weights Trained](img/Step02/Torch/Torch_Weights_Matrix.png)
+![Weights Trained](../../img/Step02/Torch/Torch_Weights_Matrix.png)
