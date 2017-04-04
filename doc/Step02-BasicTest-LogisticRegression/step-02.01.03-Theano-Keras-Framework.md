@@ -33,14 +33,14 @@ mnist = input_data.read_data_sets("MNIST_data/", one_hot=False)
 --------
 Network visualisation:
 
-![Graph](img/Step02/Theano_Keras/Theano_Keras_NetFlow.png)
+![Graph](../../img/Step02/Theano_Keras/Theano_Keras_NetFlow.png)
 
 --------
 Classification visualisation:
 
-![Classification](img/Step02/Theano_Keras/Theano_Keras_ClassificationResults.png)
+![Classification](../../img/Step02/Theano_Keras/Theano_Keras_ClassificationResults.png)
 
 --------
 Weights visualisation:
 
-![Weights](img/Step02/Theano_Keras/Theano_Keras_Weight_Matrix.png)
+![Weights](../../img/Step02/Theano_Keras/Theano_Keras_Weight_Matrix.png)
