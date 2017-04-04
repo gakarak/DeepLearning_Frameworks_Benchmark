@@ -1,13 +1,11 @@
 # DeepLearning_Frameworks_Benchmark
-Benchmark code and guidelines for article "Deep Learning with Theano, Torch, Caffe, TensorFlow, and Deeplearning4J: Which One Is the Best in Speed and Accuracy?"
 
-<p align="center">
-Deep Altoros
-</p>
+Benchmark code and guidelines for article ["Deep Learning with Theano, Torch, Caffe, TensorFlow, and Deeplearning4J: Which One Is the Best in Speed and Accuracy?"](https://www.researchgate.net/publication/302955130_Deep_Learning_with_Theano_Torch_Caffe_TensorFlow_and_Deeplearning4J_Which_One_Is_the_Best_in_Speed_and_Accuracy)
 
 
-# DeepLearning Frameworks Benchmark
+This  work  was mainlyfunded  by [Altoros](www.altoros.com), a global provider of big data, cloud computing, and Platform-as-a-Service solutions. You can find more materials at [Altoros research papers](http://www.altoros.com/research-papers)
 
+# DeepLearning Frameworks Benchmark (Main contents)
 
 - [1. Installation instrutions on g2.2xlarge](doc/Step01-Installation-g2.2xlarge/index.md)
 - [2. Basic test: Logistic Regression](doc/Step02-BasicTest-LogisticRegression/index.md)
