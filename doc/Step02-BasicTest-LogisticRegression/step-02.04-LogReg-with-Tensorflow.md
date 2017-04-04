@@ -28,11 +28,11 @@ and then open in browser URL: [http://ec2-54-86-145-119.compute-1.amazonaws.com:
 Accuracy plot:
 
 
-![TensorFlow LogReg AccPLot](img/Step02/TensorFlow/TensorFlow_MNIST_LogReg_AccPlot.png)
+![TensorFlow LogReg AccPLot](../../img/Step02/TensorFlow/TensorFlow_MNIST_LogReg_AccPlot.png)
 
 
 Network weights visualization:
 
-![TensorFlow LogReg AccPLot](img/Step02/TensorFlow/TensorFlow_MNIST_LogReg_Weights.png)
+![TensorFlow LogReg AccPLot](../../img/Step02/TensorFlow/TensorFlow_MNIST_LogReg_Weights.png)
 
 
