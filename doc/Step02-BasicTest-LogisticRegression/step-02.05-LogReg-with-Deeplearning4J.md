@@ -100,7 +100,7 @@ $ java -cp target/DeepAltorosD4J-1.0-SNAPSHOT.jar by.grid.imlab.LogisticRegressi
 Weight visualization:
 
 
-![DeepLearning4J LogReg Weights](img/Step02/DeepLearning4J/DL4J_LogReg_NetworkWeights.png)
+![DeepLearning4J LogReg Weights](../../img/Step02/DeepLearning4J/DL4J_LogReg_NetworkWeights.png)
 
 
 --------
@@ -116,9 +116,9 @@ Weight visualization:
 [ec2-52-91-93-153.compute-1.amazonaws.com:60105/weights](http://ec2-52-91-93-153.compute-1.amazonaws.com:60105/weights):
 
 
-![DL4J LogReg training visualization 1](img/Step02/DeepLearning4J/DL4J_Visualizetion_Training_1.png)
+![DL4J LogReg training visualization 1](../../img/Step02/DeepLearning4J/DL4J_Visualizetion_Training_1.png)
 
-![DL4J LogReg training visualization 2](img/Step02/DeepLearning4J/DL4J_Visualizetion_Training_2.png)
+![DL4J LogReg training visualization 2](../../img/Step02/DeepLearning4J/DL4J_Visualizetion_Training_2.png)
 
 
 
