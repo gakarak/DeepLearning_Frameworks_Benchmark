@@ -1,0 +1,6 @@
+model, timeTrain, timeTest, acc
+ModelFCN-Deeplearning4J-p100:100:100-b128-e1, 16.386, 0.906, 0.9191
+ModelFCN-Deeplearning4J-p100:100:100-b128-e1, 14.922, 0.682, 0.9191
+ModelFCN-Deeplearning4J-p100:100:100-b128-e1, 14.756, 0.563, 0.9191
+ModelFCN-Deeplearning4J-p100:100:100-b128-e1, 14.839, 0.694, 0.9191
+ModelFCN-Deeplearning4J-p100:100:100-b128-e1, 14.832, 0.588, 0.9191
