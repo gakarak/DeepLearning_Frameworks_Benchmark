@@ -1,0 +1,43 @@
+
+1. Install latest version TF (0.10rc0) on nodes
+2. Copy dataset on OpenPower cluster
+3. Copy and *untar dataset on nodes
+4. Commit code to gitlab: Altoros
+5. Pull code on OpenPower cluster and nodes
+6. Configure run-scripts and run: 1 PS-Node and N Worker-Node
+	6.1 Update CuDNN library on nodes :(
+	6.2 "git pull" to update code
+	6.3 change Starter SHELL-script: 1 PS-Node + 8 Worker-Nodes
+	6.4 synchronize code between nodes
+	6.5 Run ...
+	6.6 Try collect logs from nodes
+	6.7 We use Asynchronous training: average speed on one node is ~10 (images/sec)
+	6.8 wait ...
+	6.9 Sync after ~1 hour: speed is the same, almost 80% done
+	6.10 wait...
+	6.11 Chek Python-precesse on Nodes
+	6.12 Stop PS-Processes
+	6.13 Done! ~1.4 hours
+
+Postprocessing stage!
+
+7. Collect Logs and vizualize model in TensorBoard
+	7.1 Check FireWall rules (!) : open 6006 TCP-Port
+	7.2 Run tensorboard on main-node
+
+8. Evaluate trainde model on validation set
+	8.1 Prepare and commit Evaluation code
+	8.2 git pull
+	8.3 Run
+	8.4 wait...
+	8.5 Average accuracy is ~96.5% (after 4 epochs)
+
+9. Calculate AUC-Score and plot ROC-Curve
+	9.1 Check Firewall rules : 8888 TCP-Port
+	9.2 Configure jupyter: jupyter notebook --generate-config
+	9.3 Allow connect to jupyter-server from all interfaces
+	9.4 Run postprocessing code in jupyter notebook *
+	9.5 AUC-Score is ~0.993
+
+That is all!
+
