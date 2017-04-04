@@ -25,7 +25,7 @@ CrossEntropy is used as a loss function for multi categorical classification.
 [MNIST](http://yann.lecun.com/exdb/mnist/) image database used as training set.
 
 ---------------
-Next: [2.1 Logistic Regression with Theano](../doc/Step02-BasicTest-LogisticRegression/step-02.01-LogReg-with-Theano.md)
+Next: [2.1 Logistic Regression with Theano](../../doc/Step02-BasicTest-LogisticRegression/step-02.01-LogReg-with-Theano.md)
 
 ---------------
 - [2.1 Logistic Regression with Theano](../../doc/Step02-BasicTest-LogisticRegression/step-02.01-LogReg-with-Theano.md)
