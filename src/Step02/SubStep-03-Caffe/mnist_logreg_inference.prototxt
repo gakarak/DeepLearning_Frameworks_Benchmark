@@ -1,0 +1,21 @@
+name: "LogReg"
+input: "data"
+input_dim: 1
+input_dim: 1
+input_dim: 28
+input_dim: 28
+layer {
+  name: "ip"
+  type: "InnerProduct"
+  bottom: "data"
+  top: "ip"
+  inner_product_param {
+    num_output: 10
+  }
+}
+layer {
+  name: "prob"
+  type: "Softmax"
+  bottom: "ip"
+  top: "prob"
+}
