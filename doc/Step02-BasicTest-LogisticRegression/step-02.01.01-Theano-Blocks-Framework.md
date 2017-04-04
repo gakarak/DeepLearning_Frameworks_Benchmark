@@ -45,7 +45,7 @@ $ python Theano_Blocks_LogisticRegression.py
 Weights visualisation:
 
 
-![Weights](img/Step02/Theano_Blocks/Theano_Blocks_Weght_Matrix.png)
+![Weights](../../img/Step02/Theano_Blocks/Theano_Blocks_Weght_Matrix.png)
 
 --------
 
