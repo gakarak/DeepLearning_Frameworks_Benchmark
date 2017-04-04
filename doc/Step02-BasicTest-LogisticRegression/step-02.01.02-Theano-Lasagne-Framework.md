@@ -27,10 +27,10 @@ mnist = input_data.read_data_sets("MNIST_data/", one_hot=False)
 --------
 Traing process:
 
-![Loss plot](img/Step02/Theano_Lasagne/Theano_Lasagne_Train_Plot.png)
+![Loss plot](../../img/Step02/Theano_Lasagne/Theano_Lasagne_Train_Plot.png)
 
 --------
 Weights visualisation:
 
 
-![Weights](img/Step02/Theano_Lasagne/Theano_Lasagne_Weight_Matrix.png)
+![Weights](../../img/Step02/Theano_Lasagne/Theano_Lasagne_Weight_Matrix.png)
