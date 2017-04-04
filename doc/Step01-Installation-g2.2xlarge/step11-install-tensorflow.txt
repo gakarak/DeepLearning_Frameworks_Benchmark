@@ -1,0 +1,19 @@
+(1) Install Tensorflow (PIP)
+$ mkdir -p ~/i/tensorflow
+$ cd ~/i/tensorflow
+$ wget https://storage.googleapis.com/tensorflow/linux/gpu/tensorflow-0.7.0-py2-none-linux_x86_64.whl
+$ sudo pip install --upgrade ./tensorflow-0.7.0-py2-none-linux_x86_64.whl
+
+(2) Fix CUDA dependencies:
+$ sudo ln -s /usr/local/cuda/lib64/libcudart.so /usr/local/cuda/lib64/libcudart.so.7.0
+
+(3) Check Tensorflow installation:
+$ python -c "import tensorflow as tf ; print tf.__version__"
+I tensorflow/stream_executor/dso_loader.cc:105] successfully opened CUDA library libcublas.so locally
+I tensorflow/stream_executor/dso_loader.cc:105] successfully opened CUDA library libcudnn.so locally
+I tensorflow/stream_executor/dso_loader.cc:105] successfully opened CUDA library libcufft.so locally
+I tensorflow/stream_executor/dso_loader.cc:105] successfully opened CUDA library libcuda.so locally
+I tensorflow/stream_executor/dso_loader.cc:105] successfully opened CUDA library libcurand.so locally
+0.7.0
+
+... [Ok]

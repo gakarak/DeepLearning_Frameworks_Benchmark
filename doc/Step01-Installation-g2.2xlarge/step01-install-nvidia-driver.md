@@ -1,0 +1,56 @@
+# Installation NVidia driver for **GRID K520** [[back](index.md)]
+
+(1) Check NVIDIA Graphics Card:
+```sh
+$ lspci  | grep -i nvidia
+```
+> 00:03.0 VGA compatible controller: NVIDIA Corporation GK104GL [GRID K520] (rev a1)
+
+**Ok, Graphics Card is: "Nvidia GRID K520"**
+
+(2) On Amazon Help [using_cluster_computing.html#install-nvidia-driver] (http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/using_cluster_computing.html#install-nvidia-driver)
+link to old NVIDIA Driver (NVIDIA-Linux-x86_64-340.46).
+Go to [www.nvidia.com/Download/index.aspx](www.nvidia.com/Download/index.aspx), select:
+ - Product Type: GRID
+ - Product Series: GRID Series
+ - Product: GRID K520
+ - Operating System: Linux 64-bit
+and 'Search'. At 18.02.2016, valid lins for latest Nvidia driver is:
+[Linux-x86_64/361.28/NVIDIA-Linux-x86_64-361.28.run](http://us.download.nvidia.com/XFree86/Linux-x86_64/361.28/NVIDIA-Linux-x86_64-361.28.run)
+
+(3) Download it:
+```sh
+$ mkdir -p ~/i/nvidia.com
+$ cd ~/i/nvidia.com
+$ wget http://us.download.nvidia.com/XFree86/Linux-x86_64/361.28/NVIDIA-Linux-x86_64-361.28.run
+```
+
+(4) Install downloaded Nvidia driver:
+```sh
+$ chmod u+x ./361.28/NVIDIA-Linux-x86_64-361.28.run
+$ sudo ./361.28/NVIDIA-Linux-x86_64-361.28.run
+```
+
+(5) Check instalation:
+```sh
+$ nvidia-smi 
+```
+```
+Thu Feb 18 20:51:46 2016       
++------------------------------------------------------+                       
+| NVIDIA-SMI 361.28     Driver Version: 361.28         |                       
+|-------------------------------+----------------------+----------------------+
+| GPU  Name        Persistence-M| Bus-Id        Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp  Perf  Pwr:Usage/Cap|         Memory-Usage | GPU-Util  Compute M. |
+|===============================+======================+======================|
+|   0  GRID K520           Off  | 0000:00:03.0     Off |                  N/A |
+| N/A   40C    P0     1W / 125W |     11MiB /  4095MiB |      0%      Default |
++-------------------------------+----------------------+----------------------+
+                                                                               
++-----------------------------------------------------------------------------+
+| Processes:                                                       GPU Memory |
+|  GPU       PID  Type  Process name                               Usage      |
+|=============================================================================|
+|  No running processes found                                                 |
++-----------------------------------------------------------------------------+
+```

@@ -1,0 +1,15 @@
+!!!!!! Warning !!!!!!!
+This guide is a bad idea: too many dependencies in Nvidia CUDA-repo,
+and this repo can containt invalid driver. Skip this installation
+
+(1) Download cuda repo from nvidia site:
+$ mkdir -p ~/i/nvidia.com/cuda
+$ cd ~/i/nvidia.com/cuda
+$ wget http://developer.download.nvidia.com/compute/cuda/repos/ubuntu1404/x86_64/cuda-repo-ubuntu1404_7.5-18_amd64.deb
+
+(2) Install repo and update package list:
+$ sudo dpkg -i cuda-repo-ubuntu1404_7.5-18_amd64.deb
+$ sudo apt-get update
+
+(3) Install CUDA:
+$ sudo apt-get install cuda

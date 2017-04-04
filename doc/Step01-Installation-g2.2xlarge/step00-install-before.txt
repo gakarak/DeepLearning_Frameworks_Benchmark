@@ -1,0 +1,27 @@
+(1) Install Midnight Commander (I like it!)
+$ sudo apt-get install mc
+
+(2) Install minimal build-environement:
+$ sudo apt-get install build-essential
+
+(3) Install linux Extra Virtual Image to suport DRM
+and compile Nvidia driver:
+$ sudo apt-get install linux-image-extra-virtual
+
+(3.1) And install kernel-headers for this kernel:
+$ sudo apt-get install linux-headers-virtual
+
+(4) Disabe 'Nouveau' driver:
+sudo echo "
+blacklist nouveau
+options nouveau modeset=0
+" > /etc/modprobe.d/nvidia-installer-disable-nouveau.conf
+
+(4.1) Reboot system or unload module 'nouveau':
+$ sudo rmmod nouveau
+
+**** INFO **** After this step you can install NVidia driver (step1)
+
+(5) Install Networking utilites:
+(5.1) Nmap:
+$ sudo apt-get install nmap

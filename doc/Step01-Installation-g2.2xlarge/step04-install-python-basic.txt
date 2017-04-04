@@ -1,0 +1,60 @@
+(1) Install Python-Development packages:
+$ sudo apt-get install python-dev
+
+
+(2) Install Python-install package (PIP):
+$ sudo apt-get install python-pip
+
+
+(2.1) And update pip (over pip):
+$ sudo pip install pip -U
+
+
+(3) Install & Udate: numpy, scipy, skimage, sklearn, pandas and...:
+(3.1) Numpy:
+$ sudo pip install numpy -U
+... Check numpy installation:
+$ python -c "import numpy as np; print np.random.randn(3,3)"
+[[ 0.56115455  1.59895343 -0.06355176]
+ [-2.95932009 -1.43360241  0.12427383]
+ [-0.99861901 -0.20883317  0.46108597]]
+... [Ok]
+
+(3.2) Scipy (requre ATLAS, OpenBLAS or Intel MKL):
+$ sudo apt-get install gfortran
+$ sudo apt-get install libopenblas-dev liblapack-dev
+$ sudo apt-get install python-scipy
+$ sudo pip install scipy -U
+
+(3.3) skimage:
+$ sudo apt-get install python-skimage
+$ sudo pip install scikit-image -U
+... Check skimage installation:
+$ python -c "from skimage import io; print io.imread('/home/ubuntu/img/doge2.jpg').shape"
+(225, 225, 3)
+... [Ok]
+
+(3.4) sklearn:
+$ sudo apt-get install python-sklearn
+$ sudo pip install sklearn -U
+
+(3.5) pandas:
+$ sudo apt-get install python-pandas
+$ sudo pip install pandas -U
+... Check pandas installation:
+(3.5.1) prepare small dataset (Iris Dataset [https://en.wikipedia.org/wiki/Iris_flower_data_set]):
+$ mkdir -p ~/deep-learning/data
+$ wget https://archive.ics.uci.edu/ml/machine-learning-databases/iris/iris.data -O ~/deep-learning/data/iris-data.csv
+$ python -c "import pandas as pd ; print pd.read_csv('/home/ubuntu/deep-learning/data/iris-data.csv')[:4]"
+   5.1  3.5  1.4  0.2  Iris-setosa
+0  4.9  3.0  1.4  0.2  Iris-setosa
+1  4.7  3.2  1.3  0.2  Iris-setosa
+2  4.6  3.1  1.5  0.2  Iris-setosa
+3  5.0  3.6  1.4  0.2  Iris-setosa
+... [Ok]
+
+(3.6) ipython, notebook (Jupiter platform):
+$ sudo apt-get install ipython ipython-notebook
+$ sudo pip install ipython -U
+$ sudo pip install notebook -U
+
