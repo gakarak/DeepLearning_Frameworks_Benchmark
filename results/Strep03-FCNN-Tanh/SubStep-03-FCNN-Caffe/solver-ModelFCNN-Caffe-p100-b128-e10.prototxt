@@ -1,0 +1,16 @@
+
+net: "network-ModelFCNN-Caffe-p100-b128-e10.prototxt"
+test_iter: 100
+test_interval: 50000000
+base_lr: 0.01
+momentum: 0.9
+weight_decay: 0.0005
+lr_policy: "inv"
+gamma: 0.0001
+power: 0.75
+display: 4687
+max_iter: 4687
+snapshot: 4687
+snapshot_prefix: "ModelFCNN-Caffe-p100-b128-e10"
+solver_mode: CPU
+

@@ -1,0 +1,6 @@
+model, timeTrain, timeTest, acc
+ModelFCN-Tensorflow-p128-b128-e10, 13.77, 0.04, 0.95
+ModelFCN-Tensorflow-p128-b128-e10, 12.63, 0.05, 0.95
+ModelFCN-Tensorflow-p128-b128-e10, 11.85, 0.04, 0.96
+ModelFCN-Tensorflow-p128-b128-e10, 12.09, 0.04, 0.95
+ModelFCN-Tensorflow-p128-b128-e10, 11.91, 0.04, 0.94
