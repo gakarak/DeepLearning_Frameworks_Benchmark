@@ -1,0 +1,56 @@
+I tensorflow/stream_executor/dso_loader.cc:108] successfully opened CUDA library libcublas.so locally
+I tensorflow/stream_executor/dso_loader.cc:108] successfully opened CUDA library libcudnn.so locally
+I tensorflow/stream_executor/dso_loader.cc:108] successfully opened CUDA library libcufft.so locally
+I tensorflow/stream_executor/dso_loader.cc:108] successfully opened CUDA library libcuda.so locally
+I tensorflow/stream_executor/dso_loader.cc:108] successfully opened CUDA library libcurand.so locally
+INFO:tensorflow:PS hosts are: ['node1g4:2220']
+INFO:tensorflow:Worker hosts are: ['node1g4:2230', 'node1g4:2231', 'node1g4:2232', 'node1g4:2233', 'node2g4:2230', 'node2g4:2231', 'node2g4:2232', 'node2g4:2233', 'node3g4:2230', 'node3g4:2231', 'node3g4:2232', 'node3g4:2233', 'node4g4:2230', 'node4g4:2231', 'node4g4:2232', 'node4g4:2233']
+I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:907] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+I tensorflow/core/common_runtime/gpu/gpu_init.cc:102] Found device 0 with properties: 
+name: GRID K520
+major: 3 minor: 0 memoryClockRate (GHz) 0.797
+pciBusID 0000:00:03.0
+Total memory: 4.00GiB
+Free memory: 3.95GiB
+I tensorflow/core/common_runtime/gpu/gpu_init.cc:126] DMA: 0 
+I tensorflow/core/common_runtime/gpu/gpu_init.cc:136] 0:   Y 
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:756] Creating TensorFlow device (/gpu:0) -> (device: 0, name: GRID K520, pci bus id: 0000:00:03.0)
+I tensorflow/core/distributed_runtime/rpc/grpc_channel.cc:206] Initialize HostPortsGrpcChannelCache for job ps -> {node1g4:2220}
+I tensorflow/core/distributed_runtime/rpc/grpc_channel.cc:206] Initialize HostPortsGrpcChannelCache for job worker -> {localhost:2230, node1g4:2231, node1g4:2232, node1g4:2233, node2g4:2230, node2g4:2231, node2g4:2232, node2g4:2233, node3g4:2230, node3g4:2231, node3g4:2232, node3g4:2233, node4g4:2230, node4g4:2231, node4g4:2232, node4g4:2233}
+I tensorflow/core/distributed_runtime/rpc/grpc_server_lib.cc:202] Started server with target: grpc://localhost:2230
+INFO:tensorflow:SyncReplicas enabled: replicas_to_aggregate=16; total_num_replicas=16
+INFO:tensorflow:2016-05-27 07:01:03.250673 Supervisor
+INFO:tensorflow:Started 3 queues for processing input data.
+INFO:tensorflow:global_step/sec: 0
+I tensorflow/core/common_runtime/gpu/pool_allocator.cc:244] PoolAllocator: After 4163 get requests, put_count=2371 evicted_count=1000 eviction_rate=0.421763 and unsatisfied allocation rate=0.694691
+I tensorflow/core/common_runtime/gpu/pool_allocator.cc:256] Raising pool_size_limit_ from 100 to 110
+INFO:tensorflow:Worker 0: 2016-05-27 07:02:35.463330: step 0, loss = 4.89(0.8 examples/sec; 30.787  sec/batch)
+I tensorflow/core/common_runtime/gpu/pool_allocator.cc:244] PoolAllocator: After 4063 get requests, put_count=3429 evicted_count=2000 eviction_rate=0.58326 and unsatisfied allocation rate=0.651489
+I tensorflow/core/common_runtime/gpu/pool_allocator.cc:256] Raising pool_size_limit_ from 146 to 160
+I tensorflow/core/common_runtime/gpu/pool_allocator.cc:244] PoolAllocator: After 0 get requests, put_count=2019 evicted_count=2000 eviction_rate=0.990589 and unsatisfied allocation rate=0
+I tensorflow/core/common_runtime/gpu/pool_allocator.cc:244] PoolAllocator: After 0 get requests, put_count=2028 evicted_count=2000 eviction_rate=0.986193 and unsatisfied allocation rate=0
+INFO:tensorflow:global_step/sec: 0.0923476
+I tensorflow/core/common_runtime/gpu/pool_allocator.cc:244] PoolAllocator: After 4063 get requests, put_count=3761 evicted_count=2000 eviction_rate=0.531773 and unsatisfied allocation rate=0.576421
+I tensorflow/core/common_runtime/gpu/pool_allocator.cc:256] Raising pool_size_limit_ from 449 to 493
+I tensorflow/core/common_runtime/gpu/pool_allocator.cc:244] PoolAllocator: After 0 get requests, put_count=1065 evicted_count=1000 eviction_rate=0.938967 and unsatisfied allocation rate=0
+INFO:tensorflow:Running Summary operation on the chief.
+INFO:tensorflow:Finished running Summary operation.
+I tensorflow/core/common_runtime/gpu/pool_allocator.cc:244] PoolAllocator: After 4063 get requests, put_count=3535 evicted_count=1000 eviction_rate=0.282885 and unsatisfied allocation rate=0.40192
+I tensorflow/core/common_runtime/gpu/pool_allocator.cc:256] Raising pool_size_limit_ from 1158 to 1273
+INFO:tensorflow:global_step/sec: 0.123058
+INFO:tensorflow:Worker 0: 2016-05-27 07:06:43.608217: step 30, loss = 5.38(2.4 examples/sec; 10.116  sec/batch)
+I tensorflow/core/common_runtime/gpu/pool_allocator.cc:244] PoolAllocator: After 12189 get requests, put_count=12473 evicted_count=1000 eviction_rate=0.0801732 and unsatisfied allocation rate=0.0772008
+I tensorflow/core/common_runtime/gpu/pool_allocator.cc:256] Raising pool_size_limit_ from 2478 to 2725
+INFO:tensorflow:global_step/sec: 0.116482
+INFO:tensorflow:Running Summary operation on the chief.
+INFO:tensorflow:Finished running Summary operation.
+INFO:tensorflow:global_step/sec: 0.114824
+INFO:tensorflow:Worker 0: 2016-05-27 07:10:59.475525: step 60, loss = 5.24(3.5 examples/sec; 6.799  sec/batch)
+INFO:tensorflow:Running Summary operation on the chief.
+INFO:tensorflow:Finished running Summary operation.
+INFO:tensorflow:global_step/sec: 0.120683
+INFO:tensorflow:global_step/sec: 0.122403
+INFO:tensorflow:Running Summary operation on the chief.
+INFO:tensorflow:Finished running Summary operation.
+INFO:tensorflow:Worker 0: 2016-05-27 07:15:13.514809: step 90, loss = 6.27(2.9 examples/sec; 8.361  sec/batch)
+INFO:tensorflow:global_step/sec: 0.110944
