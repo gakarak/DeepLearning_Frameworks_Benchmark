@@ -1,4 +1,4 @@
-Logistic Regression (quick intro) [back](README.md)
+Logistic Regression (quick intro) [back](../../README.md)
 ==========================
 
 [Logistic Regression](https://en.wikipedia.org/wiki/Logistic_regression) - one of
