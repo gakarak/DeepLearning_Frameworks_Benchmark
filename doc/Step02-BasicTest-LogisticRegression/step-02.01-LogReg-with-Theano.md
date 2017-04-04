@@ -51,10 +51,10 @@ The code for file [Theano_LogisticRegression.py]  ran for 32.8s
 --------
 Traing process:
 
-![Loss plot](img/Step02/Theano/Theano_Train_Plot.png)
+![Loss plot](../../img/Step02/Theano/Theano_Train_Plot.png)
 
 --------
 Weights visualisation:
 
 
-![Weights](img/Step02/Theano/Theano_Weght_Matrix.png)
+![Weights](../../img/Step02/Theano/Theano_Weght_Matrix.png)
